@@ -1,0 +1,9 @@
+prefix=/Users/isham993/Desktop/Programming-Tutorials/2022-Data-Science/8-Other_Important_Concepts/fastapi-project/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.0.7
+Requires: libssl libcrypto

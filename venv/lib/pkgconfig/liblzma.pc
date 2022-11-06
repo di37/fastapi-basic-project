@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/isham993/Desktop/Programming-Tutorials/2022-Data-Science/8-Other_Important_Concepts/fastapi-project/venv
+exec_prefix=/Users/isham993/Desktop/Programming-Tutorials/2022-Data-Science/8-Other_Important_Concepts/fastapi-project/venv
+libdir=/Users/isham993/Desktop/Programming-Tutorials/2022-Data-Science/8-Other_Important_Concepts/fastapi-project/venv/lib
+includedir=/Users/isham993/Desktop/Programming-Tutorials/2022-Data-Science/8-Other_Important_Concepts/fastapi-project/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

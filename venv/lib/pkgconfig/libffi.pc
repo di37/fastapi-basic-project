@@ -1,0 +1,11 @@
+prefix=/Users/isham993/Desktop/Programming-Tutorials/2022-Data-Science/8-Other_Important_Concepts/fastapi-project/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/isham993/Desktop/Programming-Tutorials/2022-Data-Science/8-Other_Important_Concepts/fastapi-project/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

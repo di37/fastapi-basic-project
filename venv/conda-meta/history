@@ -1,0 +1,31 @@
+==> 2022-11-06 13:35:05 <==
+# cmd: /Users/isham993/mambaforge/bin/conda create -p venv python=3.8 -y
+# conda version: 4.13.0
++conda-forge/noarch::pip-22.3.1-pyhd8ed1ab_0
++conda-forge/noarch::setuptools-65.5.1-pyhd8ed1ab_0
++conda-forge/noarch::wheel-0.38.2-pyhd8ed1ab_0
++conda-forge/osx-arm64::bzip2-1.0.8-h3422bc3_4
++conda-forge/osx-arm64::ca-certificates-2022.9.24-h4653dfc_0
++conda-forge/osx-arm64::libffi-3.4.2-h3422bc3_5
++conda-forge/osx-arm64::libsqlite-3.39.4-h76d750c_0
++conda-forge/osx-arm64::libzlib-1.2.13-h03a7124_4
++conda-forge/osx-arm64::ncurses-6.3-h07bb92c_1
++conda-forge/osx-arm64::openssl-3.0.7-h03a7124_0
++conda-forge/osx-arm64::python-3.8.13-hd3575e6_0_cpython
++conda-forge/osx-arm64::readline-8.1.2-h46ed386_0
++conda-forge/osx-arm64::sqlite-3.39.4-h2229b38_0
++conda-forge/osx-arm64::tk-8.6.12-he1e0b03_0
++conda-forge/osx-arm64::xz-5.2.6-h57fd34a_0
+# update specs: ['python=3.8']
+==> 2022-11-06 15:44:06 <==
+# cmd: /Users/isham993/mambaforge/bin/conda install --prefix /Users/isham993/Desktop/Programming-Tutorials/2022-Data-Science/8-Other_Important_Concepts/fastapi-project/venv black -y
+# conda version: 4.13.0
++conda-forge/noarch::click-8.1.3-unix_pyhd8ed1ab_2
++conda-forge/noarch::pathspec-0.10.1-pyhd8ed1ab_0
++conda-forge/noarch::platformdirs-2.5.2-pyhd8ed1ab_1
++conda-forge/noarch::tomli-2.0.1-pyhd8ed1ab_0
++conda-forge/noarch::typing_extensions-4.4.0-pyha770c72_0
++conda-forge/osx-arm64::black-22.10.0-py38h10201cd_2
++conda-forge/osx-arm64::mypy_extensions-0.4.3-py38h10201cd_6
++conda-forge/osx-arm64::python_abi-3.8-2_cp38
+# update specs: ['black']

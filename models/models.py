@@ -4,6 +4,9 @@ from tortoise.contrib.pydantic import pydantic_model_creator
 
 
 class Product(Model):
+    '''
+        Definition of Product fieldnames.
+    '''
     id = fields.IntField(pk=True)
     name = fields.CharField(max_length=30, nullable=False)
     quantity_in_stock = fields.IntField(default=0)
@@ -17,6 +20,9 @@ class Product(Model):
 
 
 class Supplier(Model):
+    '''
+        Definition of Supplier fieldnames.
+    '''
     id = fields.IntField(pk=True)
     name = fields.CharField(max_length=20)
     company = fields.CharField(max_length=20)
